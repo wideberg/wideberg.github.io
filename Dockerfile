@@ -12,6 +12,10 @@ RUN gem update
 RUN gem install bigdecimal jekyll bundler
 #	RUN rm -f /var/cache/apk/*
 
+ADD start.sh /blog/start.sh
+
 EXPOSE 4000
 WORKDIR /blog
+
+#CMD ./start.sh
 

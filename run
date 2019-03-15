@@ -1,6 +1,7 @@
 #!/bin/bash
 
-docker run --rm \
+docker run \
+  -p 4000:4000 \
   --volume="$PWD:/blog" \
+  --volume="$PWD/.bundle:/blog/.bundle" \
   -it wideberg/blog
-  #bundle exec jekyll serve
