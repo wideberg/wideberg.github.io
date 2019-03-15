@@ -8,8 +8,10 @@ RUN apk add ruby-dev
 RUN apk add ruby-bigdecimal
 RUN apk add ruby-webrick
 RUN apk add ruby-rdoc
+RUN apk add zlib
+RUN apk add zlib-dev
 RUN gem update
-RUN gem install bigdecimal jekyll bundler
+RUN gem install bigdecimal jekyll bundler github-pages zlib
 #	RUN rm -f /var/cache/apk/*
 
 ADD start.sh /blog/start.sh
