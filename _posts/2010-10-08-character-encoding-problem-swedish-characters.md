@@ -5,6 +5,7 @@ date:   2010-10-08 01:36
 categories:
 tags: swedish-characters
 ---
+*Moved this from an eariler blog post*
 
 Mixing up the character encodings can give hard to solve results.
 
