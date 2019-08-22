@@ -24,10 +24,8 @@ public class Tester {
   
   String s = new String("åäö");
 
-
   byte[] bytes_iso = s.getBytes(ISO);
   byte[] bytes_utf = s.getBytes(UTF);
-
 
   System.out.println(s + " encoded in " + ISO + " interpretated as " + UTF + " = " + new String(bytes_iso, UTF));
   System.out.println(s + " encoded in " + UTF + " interpretated as " + ISO + " = " + new String(bytes_utf, ISO));
