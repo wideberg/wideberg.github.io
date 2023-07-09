@@ -4,7 +4,7 @@ title:  "There's no need to write getters and setters"
 date:   2019-03-16
 categories:
 tags: swedish-characters
-published: false
+published: true
 ---
 I don’t write getters and setters! There simpily is no need for them and they only pollute the code.
 

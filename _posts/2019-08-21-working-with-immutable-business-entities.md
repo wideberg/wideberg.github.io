@@ -4,7 +4,7 @@ title:  "Working with immutable business entities"
 date:   2019-08-21
 categories:
 tags:
-published: false
+published: true
 ---
 
 How can you actually work with immutable business entities? Isn't it just a lot more complicated going immutable than doing it the old way, with setters and getters?  It is usually necessary to alter state after all... right?!
